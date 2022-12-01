@@ -29,13 +29,13 @@ Listeners class listen to events like test failed /pass /skipped e.t.c
 once the testcase has executed
 and it either fails /pass /skips
 depending upon the status
-listeneres class takes you to the execution of the code that you have written for the scenarios
+listeners class takes you to the execution of the code that you have written for the scenarios
 if your test case fails/ pass or skips
 
 
-Implentation of listeners class:
+Implementation of listeners class:
 
-listeners class implements ITestListeneres
+listeners class implements ITestListeners
 
 which is an interface from TestNG
 and we overRide the functions in it according to our need
